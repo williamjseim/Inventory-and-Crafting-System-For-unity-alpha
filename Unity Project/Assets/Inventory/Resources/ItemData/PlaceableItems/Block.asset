@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6acceabdf9df5f94bb04fc78cbb392d8, type: 3}
+  m_Name: Block
+  m_EditorClassIdentifier: 
+  _hasBeenInitialised: 0
+  id: 4
+  sprite: {fileID: -911167118, guid: db69079d59bcc82459a8816d7645a2d7, type: 3}
+  value: 0
+  stackSize: 1
+  description: 
+  placableObjectPrefab: {fileID: 7039128398276388852, guid: dbabb93019bb2d54e8cf915f5369f7ae, type: 3}
