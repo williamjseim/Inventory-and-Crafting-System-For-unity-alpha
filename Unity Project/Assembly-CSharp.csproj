@@ -67,10 +67,8 @@
     <Compile Include="Assets\Ui\Scripts\HotbarUiController.cs" />
     <Compile Include="Assets\Inventory\Resources\Scripts\FoodClass.cs" />
     <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\GUI PRO Kit - Simple Casual\Scripts\PanelControlSimpleCasual.cs" />
     <Compile Include="Assets\Inventory\InventorySlot.cs" />
     <Compile Include="Assets\Inventory\CraftingController.cs" />
-    <Compile Include="Assets\GUI PRO Kit - Simple Casual\Scripts\PanelSimpleCasual.cs" />
     <Compile Include="Assets\Inventory\DroppedItemHolder.cs" />
     <Compile Include="Assets\Ui\Scripts\CraftingTab.cs" />
     <Compile Include="Assets\Inventory\Resources\Scripts\PlaceableItemClass.cs" />

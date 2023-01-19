@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class HotbarSlot : MonoBehaviour
 {
     [SerializeField] public InventorySlot linkedInventorySlot;
-    [SerializeField] public Image frame;
 
     [SerializeField] private Image sprite;
     [SerializeField] private TextMeshProUGUI text;
@@ -26,7 +25,6 @@ public class HotbarSlot : MonoBehaviour
                 sprite.sprite = linkedInventorySlot.itemholder.item.sprite;
             }
             catch { }
-            frame.color = Color.white;
             if (linkedInventorySlot.itemholder.amount > 1)
             {
                 text.text = linkedInventorySlot.itemholder.amount.ToString();
@@ -45,7 +43,6 @@ public class HotbarSlot : MonoBehaviour
             sprite.sprite = linkedInventorySlot.itemholder.item.sprite;
         }
         catch { }
-        frame.color = Color.black;
 
     }
 

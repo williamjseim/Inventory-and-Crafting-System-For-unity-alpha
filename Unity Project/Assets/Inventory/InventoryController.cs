@@ -91,12 +91,12 @@ public class InventoryController : MonoBehaviour, IPointerClickHandler, ISaveabl
             slots[i+InventorySize-9] = obj;
             obj.inventoryController = this;
         }
-        //for (int i = 0; i < 9; i++)
-        //{
-        //    HotbarSlot obj = Instantiate(hotBarSlot, hotBar.transform).GetComponent<HotbarSlot>();
-        //    hotbarSlots[i] = obj;
-        //    obj.linkedInventorySlot = slots[i + InventorySize-9].itemholder;
-        //}
+        for (int i = 0; i < 9; i++)
+        {
+            HotbarSlot obj = Instantiate(hotBarSlotPrefab, hotBarGrid.transform).GetComponent<HotbarSlot>();
+            hotbarSlots[i] = obj;
+            obj.linkedInventorySlot = slots[i + InventorySize - 9];
+        }
     }
 
     public void PickUpItem(DroppedItemHolder item)//checks if stack of item already exists or if theres space to make a new stack
